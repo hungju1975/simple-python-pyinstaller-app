@@ -1,5 +1,5 @@
 pipeline {
-    agent { label jenkins-rpi-rob }
+    agent { label 'jenkins-rpi-rob' }
     stages {
         stage('build') {
             steps {
